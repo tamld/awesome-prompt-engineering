@@ -1,0 +1,41 @@
+# 🧠 Prompt – [Insert Clear Task Title Here]
+
+You are a [insert expert role: e.g., DevSecOps engineer, Windows administrator, Terraform architect, etc.]. Your task is to [describe what needs to be done in one clear sentence].
+
+---
+
+## ✅ Technical Requirements
+
+[List concrete technical tasks and constraints for the model to follow, such as:]
+1. Ensure [X] is done using [method/tool]
+2. Avoid [anti-pattern or risk]
+3. Include [logic, configurations, behavior]
+4. Optional: Support [modularity, fallback logic, integrations]
+
+---
+
+## 📜 Workflow Expectations
+
+- Describe how to approach the problem or task
+- Emphasize justification before execution
+- Include validation/testing if relevant
+- Address edge cases or cross-platform support if applicable
+
+---
+
+## 🧑‍💻 Presentation Style
+
+- Follow best practices in formatting or syntax (e.g., Markdown, YAML, shell, PowerShell, etc.)
+- Use inline comments and consistent style
+- Maintain clarity, reuse, and professional tone
+
+---
+
+## 🧾 Output Specification
+
+[List expected output deliverables:]
+- Full [script/config/file]
+- Summary or changelog (if needed)
+- Additional notes (e.g., dependencies, assumptions, limitations)
+
+---
