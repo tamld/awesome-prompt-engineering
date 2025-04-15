@@ -4,10 +4,10 @@
 </p>
 
 <p align="center">
-  <a href="#📚-categories">📚 Categories</a> • 
-  <a href="#🚀-get-started">🚀 Get Started</a> • 
-  <a href="#💡-contributing">💡 Contributing</a> • 
-  <a href="#📃-license">📃 License</a>
+  <a href="#categories">📚 Categories</a> • 
+  <a href="#get-started">🚀 Get Started</a> • 
+  <a href="#contributing">💡 Contributing</a> • 
+  <a href="#license">📃 License</a>
 </p>
 
 <p align="center">
@@ -15,7 +15,8 @@
   <img src="https://img.shields.io/badge/Categories-10%2B-blue" alt="Categories">
   <img src="https://img.shields.io/badge/Prompts-50%2B-green" alt="Prompts">
 </p>
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/awesome-prompt-engineering/awesome-prompt-engineering/main/assets/prompt-engineering.png" alt="Awesome Prompt Engineering" width="600">
 ---
 
 ## 🌟 About This Repository
