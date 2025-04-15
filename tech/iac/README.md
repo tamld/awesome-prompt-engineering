@@ -1,199 +1,135 @@
-# Infrastructure as Code Prompts
+# 🔥 Infrastructure as Code (IaC) Prompts
 
-This section contains prompts focused on Infrastructure as Code (IaC) tools and methodologies, including Terraform, Ansible, CloudFormation, and other automation frameworks.
+This section contains practical prompt templates designed for DevOps engineers and infrastructure professionals working with Infrastructure as Code tools. These prompts have been crafted to solve real-world challenges in infrastructure automation, deployment, and management.
 
-## Table of Contents
+## 📑 Table of Contents
 
-- [Terraform Module Creator](#terraform-module-creator)
-- [Ansible Playbook Generator](#ansible-playbook-generator)
-- [IaC Security Reviewer](#iac-security-reviewer)
-- [Multi-Cloud Migration Planner](#multi-cloud-migration-planner)
+- [🛠️ Available Prompt Templates](#available-prompt-templates)
+- [📊 Understanding Prompt Impact](#understanding-prompt-impact)
+- [🌟 Real-World Use Cases](#real-world-use-cases)
+- [📝 Usage Examples](#usage-examples)
+- [👥 Contributing](#contributing)
 
-## Terraform Module Creator
+## 🛠️ Available Prompt Templates
 
-### Prompt Template
+### Ansible Templates
 
-```
-Act as a Terraform expert with extensive experience in infrastructure as code. I need to create a Terraform module for [RESOURCE TYPE] with the following requirements:
+| Prompt File | Description | Use Case |
+|-------------|-------------|----------|
+| [idempotent-playbook.prompt](./ansible/idempotent-playbook.prompt) | Ansible playbook idempotency improvements | Create reliable, repeatable Ansible configurations |
 
-- Cloud provider: [AWS/AZURE/GCP/ETC]
-- Resource scope: [DETAILS]
-- Configuration parameters: [DETAILS]
-- Security requirements: [DETAILS]
-- Compliance needs: [DETAILS]
-- State management: [DETAILS IF SPECIFIC]
+### Terraform Templates
 
-Please provide:
-1. A complete, production-ready Terraform module including:
-   - Well-structured main.tf, variables.tf, outputs.tf files
-   - Clear documentation in README.md
-   - Examples directory with common use cases
-   - Appropriate use of Terraform features (for_each, count, dynamic blocks)
-   - Comprehensive input variable validation
-   - Meaningful outputs and descriptions
+| Prompt File | Description | Use Case |
+|-------------|-------------|----------|
+| [create-module.prompt](./terraform/create-module.prompt) | Terraform module development | Build reusable infrastructure components |
+| [security-baseline-check.prompt](./terraform/security-baseline-check.prompt) | Terraform security validation | Ensure infrastructure meets security standards |
 
-2. Best practices explanations for:
-   - Module structure and organization
-   - Variable naming and typing
-   - Security considerations
-   - Performance optimization
-   - Maintainability and reusability
-```
+### Vagrant Templates
 
-### Workflow Impact
+| Prompt File | Description | Use Case |
+|-------------|-------------|----------|
+| [init-vagrant-lab.prompt](./vagrant/init-vagrant-lab.prompt) | Vagrant lab environment setup | Create development and testing environments |
+| [multi-vm-topology.prompt](./vagrant/multi-vm-topology.prompt) | Multi-VM environment configuration | Design complex multi-machine topologies |
+| [vagrant-packer-builder.prompt](./vagrant/vagrant-packer-builder.prompt) | Vagrant box creation with Packer | Build custom, reusable Vagrant boxes |
 
-This prompt helps you:
+## 📊 Understanding Prompt Impact
 
-1. **Create Reusable Infrastructure**: Build modular, reusable Terraform components
-2. **Apply Best Practices**: Implement Terraform patterns and practices
-3. **Ensure Security**: Build security controls directly into infrastructure
-4. **Document Effectively**: Generate clear documentation for infrastructure
+The following diagram illustrates how these IaC prompts can transform manual infrastructure work into automated, version-controlled processes:
 
-![Terraform Module Workflow](https://via.placeholder.com/800x400?text=Terraform+Module+Workflow+Diagram)
-
-### Tips for Best Results
-
-- Provide details about the specific resources you need to manage
-- Mention any existing Terraform code or patterns you already use
-- Include specific security policies or compliance requirements
-- Specify any integration needs with other systems or services
-
-## Ansible Playbook Generator
-
-### Prompt Template
-
-```
-Act as an Ansible automation expert. I need to create an Ansible playbook for [TASK DESCRIPTION] with these requirements:
-
-- Target systems: [OS TYPE/VERSION]
-- Authentication method: [SSH KEYS/PASSWORD/ETC]
-- Idempotence requirements: [STRICT/MODERATE]
-- Error handling approach: [STOP ON ERROR/CONTINUE/CUSTOM]
-- Inventory structure: [DETAILS]
-- Variables/secrets management: [DETAILS]
-
-Please provide:
-1. A complete, production-ready Ansible solution including:
-   - Well-structured playbooks with appropriate roles and tasks
-   - Necessary templates, files, and handlers
-   - Variable definitions and defaults
-   - Inventory examples if relevant
-   - Tags for selective execution
-   - Proper error handling and reporting
-
-2. Best practices explanations for:
-   - Task organization and role structure
-   - Conditionals and loops usage
-   - Performance optimization
-   - Security considerations
-   - Testing and validation approach
+```mermaid
+flowchart TD
+    A[Manual Infrastructure] --> B{Prompt Engineering}
+    B -->|Automation| C[Infrastructure as Code]
+    B -->|Best Practices| D[Security Compliance]
+    B -->|Reusability| E[Modular Components]
+    B -->|Testing| F[Validation Frameworks]
+    
+    C --> G[Robust Infrastructure Pipeline]
+    D --> G
+    E --> G
+    F --> G
+    
+    G --> H[Reduced Deployment Time]
+    G --> I[Consistent Environments]
+    G --> J[Improved Security Posture]
+    G --> K[Lower Operational Costs]
+    
+    style A fill:#ffcccc
+    style G fill:#ccffcc
+    style B fill:#ccccff,stroke:#333,stroke-width:2px
+    style H fill:#e6ffcc
+    style I fill:#e6ffcc
+    style J fill:#e6ffcc
+    style K fill:#e6ffcc
 ```
 
-### Workflow Impact
+## 🌟 Real-World Use Cases
 
-This prompt helps you:
+These Infrastructure as Code prompts are particularly valuable for:
 
-1. **Automate Configuration**: Create reliable, repeatable configuration management
-2. **Structure Automation**: Organize Ansible code according to best practices
-3. **Ensure Idempotence**: Build playbooks that can run safely multiple times
-4. **Handle Edge Cases**: Manage errors and special conditions appropriately
+1. **🚀 Continuous Delivery**: Building reliable infrastructure pipelines for application deployment
 
-### Tips for Best Results
+2. **🔄 Environment Parity**: Ensuring development, testing, and production environments are identical
 
-- Describe the exact configuration changes you need to make
-- Mention any existing Ansible code or patterns you already use
-- Include details about your inventory structure and organization
-- Specify any special requirements (e.g., needs to work without internet access)
+3. **📊 Compliance Automation**: Codifying regulatory and security requirements into infrastructure templates
 
-## IaC Security Reviewer
+4. **🔍 Infrastructure Testing**: Creating comprehensive test suites for infrastructure validation
 
-### Prompt Template
+5. **📦 Reusable Components**: Developing modular, shareable infrastructure building blocks
 
-```
-Act as an infrastructure security specialist with expertise in IaC security. I need you to review [TERRAFORM/ANSIBLE/CLOUDFORMATION/ETC] code for security issues. The infrastructure is:
+## 📝 Usage Examples
 
-- Cloud platform: [AWS/AZURE/GCP/ETC]
-- Resource types: [COMPUTE/NETWORK/STORAGE/ETC]
-- Security requirements: [DETAILS]
-- Compliance standards: [SOC2/HIPAA/PCI/ETC if applicable]
-- Threat model: [ANY SPECIFIC THREATS TO ADDRESS]
-- Current code: [PASTE SNIPPET OR DESCRIBE]
+### Example 1: Creating an Idempotent Ansible Playbook
 
-Please provide:
-1. A comprehensive security review including:
-   - Identification of security misconfigurations
-   - Analysis of IAM/permissions issues
-   - Network security and exposure assessment
-   - Data protection evaluation
-   - Encryption implementation review
-   - Logging and monitoring gaps
-
-2. Remediation recommendations with:
-   - Specific code changes (actual corrected code)
-   - Security best practices implementation
-   - Defense-in-depth strategies
-   - Compliance alignment improvements
-```
-
-### Workflow Impact
-
-This prompt helps you:
-
-1. **Identify Security Flaws**: Find vulnerabilities in infrastructure code
-2. **Apply Security Best Practices**: Implement secure IaC patterns
-3. **Meet Compliance**: Align infrastructure with compliance requirements
-4. **Mitigate Risks**: Address security issues before deployment
-
-### Tips for Best Results
-
-- Share relevant sections of your infrastructure code
-- Mention specific security concerns you're worried about
-- Include details about your security requirements and standards
-- Specify which compliance frameworks you need to adhere to
-
-## Multi-Cloud Migration Planner
-
-### Prompt Template
+When you need to improve an existing Ansible playbook:
 
 ```
-Act as a multi-cloud architect specializing in infrastructure migration. I need a migration plan to move [RESOURCE TYPE] from [SOURCE ENVIRONMENT] to [TARGET ENVIRONMENT] using infrastructure as code. Details:
+[Copy and paste the idempotent-playbook.prompt content here]
 
-- Current infrastructure: [DETAILS]
-- Target state: [DETAILS] 
-- Scale: [SIZE/COMPLEXITY]
-- Downtime tolerance: [MAXIMUM ALLOWED DOWNTIME]
-- Data transfer requirements: [VOLUME/SENSITIVITY]
-- Special considerations: [DEPENDENCIES/CONSTRAINTS]
+Here's my playbook that needs improvement:
 
-Please provide:
-1. A comprehensive migration strategy including:
-   - Pre-migration assessment and planning
-   - Infrastructure as Code approach (tool selection and justification)
-   - Step-by-step implementation plan
-   - Data migration methodology
-   - Testing and validation strategy
-   - Cutover plan with rollback procedures
-   - Post-migration verification
-
-2. IaC templates or frameworks for:
-   - Resource provisioning in the target environment
-   - Configuration management
-   - Network and security setup
-   - Monitoring and observability
+---
+- hosts: webservers
+  tasks:
+    - name: Install nginx
+      apt:
+        name: nginx
+        state: present
+    - name: Start nginx
+      service:
+        name: nginx
+        state: started
 ```
 
-### Workflow Impact
+### Example 2: Developing a Terraform Module
 
-This prompt helps you:
+```
+[Copy and paste the create-module.prompt content here]
 
-1. **Plan Migrations**: Create structured approaches for moving infrastructure
-2. **Minimize Risk**: Identify and mitigate migration risks
-3. **Automate Transitions**: Use IaC to make migrations repeatable and testable
-4. **Handle Complexity**: Address multi-environment dependencies and constraints
+I need a Terraform module for AWS that:
+- Creates a VPC with public and private subnets
+- Sets up appropriate security groups
+- Configures proper IAM roles
+- Follows security best practices
+```
 
-### Tips for Best Results
+### Example 3: Setting Up a Multi-VM Lab Environment
 
-- Provide detailed information about your current infrastructure
-- Clearly communicate constraints and requirements
-- Mention any previous migration experience or issues
-- Include details about specific services or applications affected
+```
+[Copy and paste the multi-vm-topology.prompt content here]
+
+I need a Vagrant configuration for a lab environment with:
+- 1 load balancer (nginx)
+- 3 web servers (apache)
+- 1 database server (postgresql)
+- Proper networking between components
+```
+
+## 👥 Contributing
+
+We welcome contributions to improve these prompts or add new ones related to Infrastructure as Code. Please consider adding:
+
+- Additional prompt templates for other IaC tools like CloudFormation, Pulumi, etc.
+- Example responses that showcase effective AI-assisted infrastructure transformations
+- Diagrams illustrating complex workflows that can benefit from these prompts
