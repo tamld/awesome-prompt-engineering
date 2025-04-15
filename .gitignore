@@ -1,0 +1,1 @@
+"# OS generated files\n.DS_Store\nThumbs.db\n\n# Editor directories and files\n.idea/\n.vscode/\n*.sublime-*\n\n# Local development files\nnode_modules/\n*.log"  
