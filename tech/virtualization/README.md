@@ -1,17 +1,18 @@
-# Virtualization Prompts
+# 🔄 Virtualization Prompts
 
 This section contains prompts focused on virtualization technologies, including Docker, Kubernetes, virtual machines, and containerization strategies.
 
-## Table of Contents
+## 📑 Table of Contents
 
-- [Container Optimization Advisor](#container-optimization-advisor)
-- [Kubernetes Manifest Generator](#kubernetes-manifest-generator)
-- [VM Resource Planning Guide](#vm-resource-planning-guide)
-- [Containerization Strategy Planner](#containerization-strategy-planner)
+- [🐳 Container Optimization Advisor](#container-optimization-advisor)
+- [☸️ Kubernetes Manifest Generator](#kubernetes-manifest-generator)
+- [🖥️ VM Resource Planning Guide](#vm-resource-planning-guide)
+- [📦 Containerization Strategy Planner](#containerization-strategy-planner)
+- [🔥 Proxmox Automation](/tech/virtualization/proxmox/)
 
-## Container Optimization Advisor
+## 🐳 Container Optimization Advisor
 
-### Prompt Template
+### 📝 Prompt Template
 
 ```
 Act as a Docker optimization expert. I'm working with a [LANGUAGE/FRAMEWORK] application that I need to containerize efficiently. Details:
@@ -33,7 +34,7 @@ Please provide:
 7. Docker-compose setup if the application has multiple services
 ```
 
-### Workflow Impact
+### 💪 Workflow Impact
 
 This prompt helps you:
 
@@ -42,18 +43,16 @@ This prompt helps you:
 3. **Improve Security**: Implement container security best practices
 4. **Enhance Build Speed**: Optimize caching and layer management
 
-![Container Optimization Workflow](https://via.placeholder.com/800x400?text=Container+Optimization+Workflow+Diagram)
-
-### Tips for Best Results
+### 💡 Tips for Best Results
 
 - Share specific details about your application's dependencies and build process
 - Mention any current pain points with your existing Dockerfiles
 - Include information about your deployment environment (cloud, on-prem, etc.)
 - Specify any compliance requirements that affect containerization
 
-## Kubernetes Manifest Generator
+## ☸️ Kubernetes Manifest Generator
 
-### Prompt Template
+### 📝 Prompt Template
 
 ```
 Act as a Kubernetes architect. I need to deploy [APPLICATION TYPE] to Kubernetes with these requirements:
@@ -85,7 +84,7 @@ Please provide:
    - Backup and disaster recovery approaches
 ```
 
-### Workflow Impact
+### 💪 Workflow Impact
 
 This prompt helps you:
 
@@ -94,16 +93,16 @@ This prompt helps you:
 3. **Balance Resources**: Set appropriate requests and limits
 4. **Secure Deployments**: Apply proper security controls
 
-### Tips for Best Results
+### 💡 Tips for Best Results
 
 - Provide details about your application's architecture and components
 - Mention any specific Kubernetes features you want to leverage
 - Include information about your cluster environment (cloud provider, version, etc.)
 - Specify any operational constraints (e.g., need for zero-downtime updates)
 
-## VM Resource Planning Guide
+## 🖥️ VM Resource Planning Guide
 
-### Prompt Template
+### 📝 Prompt Template
 
 ```
 Act as a virtualization specialist. I need to plan virtualized infrastructure for [WORKLOAD TYPE] with these parameters:
@@ -128,7 +127,7 @@ Please provide:
 8. Migration strategy if moving from physical infrastructure
 ```
 
-### Workflow Impact
+### 💪 Workflow Impact
 
 This prompt helps you:
 
@@ -137,16 +136,16 @@ This prompt helps you:
 3. **Optimize Resources**: Balance performance and cost through proper allocation
 4. **Design for Resilience**: Build in appropriate redundancy and backup
 
-### Tips for Best Results
+### 💡 Tips for Best Results
 
 - Provide specific information about application workloads and their resource usage patterns
 - Mention any existing performance bottlenecks in current systems
 - Include details about expected growth over time
 - Specify any business-critical applications with special requirements
 
-## Containerization Strategy Planner
+## 📦 Containerization Strategy Planner
 
-### Prompt Template
+### 📝 Prompt Template
 
 ```
 Act as a containerization strategy consultant. I need to develop a plan to containerize [EXISTING APPLICATION/ENVIRONMENT] with these characteristics:
@@ -170,7 +169,7 @@ Please provide:
 8. Testing strategy for containerized applications
 ```
 
-### Workflow Impact
+### 💪 Workflow Impact
 
 This prompt helps you:
 
@@ -179,7 +178,7 @@ This prompt helps you:
 3. **Manage Change**: Address team skill gaps and operational shifts
 4. **Avoid Common Mistakes**: Navigate known containerization challenges
 
-### Tips for Best Results
+### 💡 Tips for Best Results
 
 - Describe your current application architecture in detail
 - Be honest about your team's container and orchestration experience
