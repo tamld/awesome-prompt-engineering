@@ -1,6 +1,6 @@
 # Windows Administration Prompts
 
-[![Return to Homepage](https://img.shields.io/badge/Return%20to%20Homepage-blue?style=for-the-badge)](../../README.md)
+[![Return to Homepage](https://img.shields.io/badge/Return%20to%20Homepage-blue?style=for-the-badge)](https://tamld.github.io/awesome-prompt-engineering/)
 
 This section contains practical prompt templates designed for IT professionals working with Windows environments. These prompts have been crafted to solve real-world challenges in Windows system administration, PowerShell scripting, batch files, and Windows management.
 

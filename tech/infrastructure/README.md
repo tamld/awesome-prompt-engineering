@@ -1,6 +1,6 @@
 # Infrastructure Design Prompts
 
-[![Return to Homepage](https://img.shields.io/badge/Return%20to%20Homepage-blue?style=for-the-badge)](../../README.md)
+[![Return to Homepage](https://img.shields.io/badge/Return%20to%20Homepage-blue?style=for-the-badge)](https://tamld.github.io/awesome-prompt-engineering/)
 
 This section contains practical prompt templates designed for network engineers and infrastructure architects. These prompts have been crafted to solve real-world challenges in designing, implementing, and maintaining robust IT infrastructure.
 
