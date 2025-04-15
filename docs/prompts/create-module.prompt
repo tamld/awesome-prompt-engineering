@@ -1,0 +1,39 @@
+# 🧠 Prompt – Create a Reusable Terraform Module
+
+You are an infrastructure-as-code engineer. Your task is to create a reusable Terraform module for deploying cloud resources (e.g., an AWS EC2 instance or Azure VM).
+
+---
+
+## ✅ Technical Requirements
+
+1. Define:
+   - Input variables with types, descriptions, and defaults
+   - Output values
+   - Proper `main.tf`, `variables.tf`, `outputs.tf` structure
+
+2. Follow naming conventions and resource tagging
+
+3. Optional:
+   - Support multiple environments (dev, staging, prod)
+
+---
+
+## 📜 Workflow Expectations
+
+- Validate input constraints (e.g., length, regex)
+- Structure module for easy consumption via `source = "./modules/xyz"`
+- Include minimal but complete example usage
+
+---
+
+## 🧑‍💻 Presentation Style
+
+- Use comments to explain block purpose
+- Align = signs in variable definitions for clarity
+
+---
+
+## 🧾 Output Specification
+
+- `main.tf`, `variables.tf`, `outputs.tf` files
+- Sample `terraform.tfvars` and usage example

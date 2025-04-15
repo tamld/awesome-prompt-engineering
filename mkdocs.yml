@@ -1,0 +1,41 @@
+site_name: Awesome Prompt Engineering
+site_url: https://tamld.github.io/awesome-prompt-engineering/
+repo_name: tamld/awesome-prompt-engineering
+repo_url: https://github.com/tamld/awesome-prompt-engineering
+site_author: Tam Le Duc
+site_description: Curated, structured prompt engineering examples for developers and DevOps.
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - navigation.indexes
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.extra
+  - pymdownx.inlinehilite
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Bash Linux: sites/bash-linux.md
+  - Devops: sites/devops.md
+  - Iac: sites/iac.md
+  - Infrastructure: sites/infrastructure.md
+  - Programming: sites/programming.md
+  - Virtualization: sites/virtualization.md
+  - Windows: sites/windows.md
