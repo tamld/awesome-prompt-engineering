@@ -1,4 +1,5 @@
 # Devops
+[🔙 Return to homepage](../index.md)
 
 ## Overview
 # 🔥 DevOps Prompts
@@ -111,54 +112,10 @@ We welcome contributions to improve these prompts or add new ones related to Dev
 - Additional prompt templates for CI/CD, monitoring, observability, etc.
 - Example responses that showcase effective AI-assisted DevOps transformations
 - Diagrams illustrating complex workflows that can benefit from these prompts
+
+## Prompts
+
+- [create-release-notes.prompt](../prompts/create-release-notes.prompt)
+
 ---
-## `create-release-notes.prompt`
-```text
-🧠 Prompt – Generate Release Notes from Git History
-
-You are a DevOps engineer building release notes automation. Your task is to generate a changelog or release notes from a Git repository's commit history.
-
-✅ Technical Requirements
-
-Analyze commit history using git log
-
-Group commits by Conventional Commit types:
-
-feat, fix, chore, refactor, etc.
-
-Format output using Markdown
-
-Support semantic versioning in the changelog title
-
-Optional: Include commit hash or PR links per entry
-
-📜 Workflow Expectations
-
-Input: List of commit messages or raw git log output
-
-Sort and group commits logically
-
-Exclude irrelevant noise (e.g., merge commits if not helpful)
-
-🧑‍💻 Presentation Style
-
-Markdown formatting preferred
-
-Use emojis per section (e.g., 🚀 Features, 🐛 Fixes)
-
-Use bullet points for each item
-
-🧾 Output Specification
-
-Markdown-formatted release notes
-
-Sections: version, date, grouped changes
-
-Example:
-## [v1.2.0] - 2024-04-15
-### 🚀 Features
-- feat(api): add JWT-based authentication
-
-### 🐛 Fixes
-- fix(ui): correct alignment on dashboard panel```
-
+[🔙 Return to homepage](../index.md)

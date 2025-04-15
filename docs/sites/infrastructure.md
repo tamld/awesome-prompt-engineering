@@ -1,4 +1,5 @@
 # Infrastructure
+[🔙 Return to homepage](../index.md)
 
 ## Overview
 # 🔥 Infrastructure Design Prompts
@@ -105,66 +106,10 @@ We welcome contributions to improve these prompts or add new ones related to inf
 - Additional prompt templates for network design, data center architecture, etc.
 - Example responses that showcase effective AI-assisted infrastructure planning
 - Diagrams illustrating complex infrastructure patterns that can benefit from these prompts
+
+## Prompts
+
+- [design-ha-network.prompt](../prompts/design-ha-network.prompt)
+
 ---
-## `design-ha-network.prompt`
-```text
-🧠 Prompt – Design High Availability (HA) Network Architecture
-
-You are a cloud infrastructure architect. Your task is to design a highly available network setup for a company operating across two physical locations: HQ and Disaster Recovery (DR).
-
-✅ Technical Requirements
-
-Redundant design for:
-
-WAN (dual ISP, BGP if needed)
-
-LAN (stacked switches, LACP)
-
-VPN (failover tunnels or mesh)
-
-Provide:
-
-IPv4/IPv6 schema recommendations
-
-Internal DNS and public DNS separation
-
-Routing failover with metrics (OSPF, VRRP, etc.)
-
-Include security layering:
-
-Segmentation
-
-Firewalls (stateful, NGFW)
-
-Access control (NAC, VLAN, ACL)
-
-Optional: Public cloud integration
-
-AWS Direct Connect / Azure ExpressRoute / GCP Interconnect
-
-📜 Workflow Expectations
-
-State assumptions: bandwidth, SLA, region constraints
-
-Recommend tools or protocols per function
-
-Highlight trade-offs between cost, complexity, and resilience
-
-🧑‍💻 Presentation Style
-
-Text-based diagrams (ASCII/Markdown tables)
-
-Use bulleted lists for components
-
-Explain acronyms on first use
-
-🧾 Output Specification
-
-Architecture summary (text-based diagram)
-
-IP/VLAN plan (optional table)
-
-Risks or blind spots
-
-```
-
+[🔙 Return to homepage](../index.md)

@@ -1,4 +1,5 @@
 # Bash Linux
+[🔙 Return to homepage](../index.md)
 
 ## Overview
 # 🔥 Bash & Linux Prompts
@@ -102,7 +103,10 @@ We welcome contributions to improve these prompts or add new ones related to Lin
 - Additional prompt templates for specific Linux administration tasks
 - Example responses that showcase effective AI-assisted script transformations
 - Diagrams illustrating complex workflows that can benefit from these prompts
----
-## No prompts yet
-This category doesn't have any prompt files yet. Feel free to contribute!
 
+## Prompts
+
+_No prompts found._
+
+---
+[🔙 Return to homepage](../index.md)

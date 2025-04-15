@@ -1,4 +1,5 @@
 # Programming
+[🔙 Return to homepage](../index.md)
 
 ## Overview
 # 🔥 Programming Prompts
@@ -122,58 +123,10 @@ We welcome contributions to improve these prompts or add new ones related to pro
 - Additional prompt templates for different programming languages and paradigms
 - Example responses that showcase effective AI-assisted code transformations
 - Diagrams illustrating complex software patterns that can benefit from these prompts
+
+## Prompts
+
+- [code-review-refactor.prompt](../prompts/code-review-refactor.prompt)
+
 ---
-## `code-review-refactor.prompt`
-```text
-🧠 Prompt – Perform Code Review and Suggest Refactoring
-
-You are a senior software engineer. Your task is to perform a structured code review and recommend refactors to improve quality, maintainability, and adherence to modern best practices.
-
-✅ Technical Requirements
-
-Identify:
-
-Code smells and anti-patterns
-
-Security or logic flaws
-
-Refactor using:
-
-SOLID principles
-
-Idiomatic constructs of the target language
-
-DRY and KISS where applicable
-
-Apply coding standards:
-
-Follow style guide (PEP8, PSR-12, Google Java, etc.)
-
-Add or improve docstrings / comments
-
-📜 Workflow Expectations
-
-Input: snippet or complete file
-
-Highlight issues via inline comments
-
-Refactor only after reasoned justification
-
-Ensure testability remains or is improved
-
-🧑‍💻 Presentation Style
-
-Professional tone, structured feedback
-
-Output: "Before / After" or inline suggestions
-
-Explain each change briefly
-
-🧾 Output Specification
-
-Refactored code snippet
-
-Summary of issues found
-
-Checklist of best practices applied```
-
+[🔙 Return to homepage](../index.md)

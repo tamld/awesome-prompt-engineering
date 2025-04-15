@@ -1,0 +1,38 @@
+# 🧠 Prompt – Perform Active Directory Health Check
+
+You are an Active Directory administrator. Your task is to generate a diagnostic script or procedure to assess the health of an AD domain.
+
+---
+
+## ✅ Technical Requirements
+
+1. Check domain controllers for:
+   - Replication status (use `repadmin`)
+   - DNS registration, SYSVOL sync
+   - Time synchronization
+
+2. Review AD sites and services for misconfiguration
+
+3. Collect and summarize `dcdiag`, `netdiag`, and event log outputs
+
+---
+
+## 📜 Workflow Expectations
+
+- Script should be modular and reusable
+- Provide optional HTML or CSV reporting output
+
+---
+
+## 🧑‍💻 Presentation Style
+
+- Clear log sections per test
+- Color/label severity in output if possible
+
+---
+
+## 🧾 Output Specification
+
+- Health summary report
+- Warnings or errors grouped by category
+- Recommendations for remediation
