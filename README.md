@@ -1,23 +1,16 @@
-<h1 align="center">🎯 Awesome Prompt Engineering</h1>
-<p align="center">
-  Curated, reusable prompts for AI assistants in DevOps, SysAdmin, Infrastructure, and more.
-</p>
+# 🎯 Awesome Prompt Engineering
 
-<p align="center">
-  <a href="#categories">📚 Categories</a> • 
-  <a href="#get-started">🚀 Get Started</a> • 
-  <a href="#contributing">💡 Contributing</a> • 
-  <a href="#license">📃 License</a>
-</p>
+Curated, reusable prompts for AI assistants in DevOps, SysAdmin, Infrastructure, and more.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
-  <img src="https://img.shields.io/badge/Categories-10%2B-blue" alt="Categories">
-  <img src="https://img.shields.io/badge/Prompts-50%2B-green" alt="Prompts">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/awesome-prompt-engineering/awesome-prompt-engineering/main/assets/prompt-engineering.png" alt="Awesome Prompt Engineering" width="600">
-</p>
+---
+
+[📚 Categories](#categories) • [🚀 Get Started](#get-started) • [💡 Contributing](#contributing) • [📃 License](#license)
+
+---
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![Categories](https://img.shields.io/badge/Categories-10%2B-blue) ![Prompts](https://img.shields.io/badge/Prompts-50%2B-green)
+
+![Awesome Prompt Engineering](https://raw.githubusercontent.com/awesome-prompt-engineering/awesome-prompt-engineering/main/assets/prompt-engineering.png)
 
 ---
 
