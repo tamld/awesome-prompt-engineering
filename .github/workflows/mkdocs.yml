@@ -1,0 +1,32 @@
+name: Deploy MkDocs with Prompts
+
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install MkDocs and Material theme
+        run: |
+          pip install mkdocs mkdocs-material
+
+      - name: Build Markdown docs from .prompt files
+        run: |
+          chmod +x build-docs.sh
+          ./build-docs.sh
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
