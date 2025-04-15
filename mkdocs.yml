@@ -1,0 +1,31 @@
+site_name: Awesome Prompt Engineering
+site_description: "Structured, reusable prompts for ChatGPT, Claude, Gemini \u2013\
+  \ focused on DevOps, scripting & infrastructure."
+site_url: https://tamld.github.io/awesome-prompt-engineering/
+theme:
+  name: material
+  features:
+  - navigation.instant
+  - navigation.tracking
+  - toc.integrate
+  - search.suggest
+  - search.highlight
+  - content.tabs.link
+nav:
+- Home: index.md
+- Bash & Linux: bash-linux.md
+- DevOps: devops.md
+- Infrastructure as Code: iac.md
+- Infrastructure: infrastructure.md
+- Programming: programming.md
+- Virtualization: virtualization.md
+- Windows: windows.md
+markdown_extensions:
+- admonition
+- codehilite
+- toc
+- tables
+- attr_list
+- def_list
+plugins:
+- search
