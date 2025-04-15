@@ -1,9 +1,6 @@
-[🏠 Home](index.md)
-
 # Windows
 
 ## Overview
-
 # 🔥 Windows Administration Prompts
 
 This section contains practical prompt templates designed for IT professionals working with Windows environments. These prompts have been crafted to solve real-world challenges in Windows system administration, PowerShell scripting, batch files, and Windows management.
@@ -106,18 +103,15 @@ foreach ($user in $users) {
 }
 ```
 
-## Contributing
+## 👥 Contributing
 
 We welcome contributions to improve these prompts or add new ones related to Windows administration. Please consider adding:
 
 - Additional prompt templates for specific Windows management tasks
 - Example responses that showcase effective AI-assisted script transformations
 - Diagrams illustrating complex workflows that can benefit from these prompts
-
 ---
-
 ## `ad-healthcheck-prompt.prompt`
-
 ```text
 # 🧠 Prompt – Perform Active Directory Health Check
 
@@ -157,13 +151,10 @@ You are an Active Directory administrator. Your task is to generate a diagnostic
 - Health summary report
 - Warnings or errors grouped by category
 - Recommendations for remediation
-
 ```
 
 ---
-
 ## `cmd-batch-automation.prompt`
-
 ```text
 # 🧠 Prompt – Automate Windows Tasks Using Batch Scripts
 
@@ -204,13 +195,10 @@ You are a Windows system administrator. Your task is to write or refactor a batc
 - Full refactored batch script
 - Usage examples
 - Summary of key automation behaviors
-
 ```
 
 ---
-
 ## `gpo-policy-hardening.prompt`
-
 ```text
 # 🧠 Prompt – Harden Group Policy Objects for Windows Environment
 
@@ -250,13 +238,10 @@ You are a Windows infrastructure engineer. Your task is to review and improve Gr
 - Hardened policy summary
 - Justification for each setting
 - Optional: `.inf` export or `LGPO.exe` script reference
-
 ```
 
 ---
-
 ## `powershell-script-hardening.prompt`
-
 ```text
 # 🧠 Prompt – Harden a PowerShell Script for Enterprise Use
 
@@ -302,13 +287,10 @@ You are a Windows Server administrator and PowerShell expert. Your task is to ha
 - Refactored PowerShell script
 - Summary of hardening improvements
 - Compatibility & security checklist
-
 ```
 
 ---
-
 ## `windows-service-wrapper.prompt`
-
 ```text
 # 🧠 Prompt – Wrap a Script or Executable as a Windows Service
 
@@ -349,13 +331,10 @@ You are a Windows automation engineer. Your task is to create a method for runni
 - Installable wrapper script
 - Instructions and limitations
 - Troubleshooting notes
-
 ```
 
 ---
-
 ## `windows-troubleshooting-diagnostic.prompt`
-
 ```text
 # 🧠 Prompt – Diagnose and Troubleshoot a Windows Server Issue
 
@@ -401,6 +380,5 @@ You are a senior Windows engineer. Your task is to diagnose a reported issue on 
 - Summary of analysis
 - Step-by-step resolution
 - Root cause explanation + mitigation tips
-
 ```
 

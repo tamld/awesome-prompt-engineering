@@ -1,9 +1,6 @@
-[🏠 Home](index.md)
-
-# DevOps
+# Devops
 
 ## Overview
-
 # 🔥 DevOps Prompts
 
 This section contains practical prompt templates designed for DevOps engineers and CI/CD professionals. These prompts have been crafted to solve real-world challenges in continuous integration, delivery, deployment, and release management.
@@ -107,18 +104,15 @@ Date: Fri Apr 7 15:22:33 2023
 commit ...
 ```
 
-## Contributing
+## 👥 Contributing
 
 We welcome contributions to improve these prompts or add new ones related to DevOps practices. Please consider adding:
 
 - Additional prompt templates for CI/CD, monitoring, observability, etc.
 - Example responses that showcase effective AI-assisted DevOps transformations
 - Diagrams illustrating complex workflows that can benefit from these prompts
-
 ---
-
 ## `create-release-notes.prompt`
-
 ```text
 🧠 Prompt – Generate Release Notes from Git History
 
@@ -166,6 +160,5 @@ Example:
 - feat(api): add JWT-based authentication
 
 ### 🐛 Fixes
-- fix(ui): correct alignment on dashboard panel
-```
+- fix(ui): correct alignment on dashboard panel```
 

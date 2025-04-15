@@ -1,9 +1,6 @@
-[🏠 Home](index.md)
-
 # Programming
 
 ## Overview
-
 # 🔥 Programming Prompts
 
 This section contains practical prompt templates designed for software developers and programmers. These prompts have been crafted to solve real-world challenges in code review, refactoring, optimization, and best practices implementation.
@@ -118,18 +115,15 @@ class UserService {
 }
 ```
 
-## Contributing
+## 👥 Contributing
 
 We welcome contributions to improve these prompts or add new ones related to programming tasks. Please consider adding:
 
 - Additional prompt templates for different programming languages and paradigms
 - Example responses that showcase effective AI-assisted code transformations
 - Diagrams illustrating complex software patterns that can benefit from these prompts
-
 ---
-
 ## `code-review-refactor.prompt`
-
 ```text
 🧠 Prompt – Perform Code Review and Suggest Refactoring
 
@@ -181,6 +175,5 @@ Refactored code snippet
 
 Summary of issues found
 
-Checklist of best practices applied
-```
+Checklist of best practices applied```
 

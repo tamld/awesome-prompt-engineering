@@ -1,9 +1,6 @@
-[🏠 Home](index.md)
-
 # Virtualization
 
 ## Overview
-
 # 🔥 Virtualization Prompts
 
 This section contains practical prompt templates designed for virtualization administrators and architects. These prompts have been crafted to solve real-world challenges in managing virtual machines, hypervisors, and containerization platforms.
@@ -79,18 +76,15 @@ These prompts are designed to work with various virtualization technologies. To 
 3. **Include Examples**: Where possible, include examples of existing configurations
 4. **Clarify Goals**: Specify whether you're optimizing for performance, density, security, etc.
 
-## Contributing
+## 👥 Contributing
 
 We welcome contributions to improve these prompts or add new ones related to virtualization technologies. Please consider adding:
 
 - Additional prompt templates for other virtualization platforms (VMware, Hyper-V, KVM, etc.)
 - Example responses that showcase effective VM configurations and scripts
 - Diagrams illustrating complex virtualization architectures that can benefit from these prompts
-
 ---
-
 ## `optimize-proxmox-script.prompt`
-
 ```text
 🧠 Prompt – Optimize a Shell Script for Proxmox (DevSecOps-focused)
 
@@ -160,13 +154,10 @@ Please follow these technical and procedural principles strictly:
 You will be provided with a shell script. Your output should include:
 - Full refactored script
 - Summary of changes
-- Any critical observations or recommendations
-```
+- Any critical observations or recommendations```
 
 ---
-
 ## `headless-automation.prompt`
-
 ```text
 # 🧠 Prompt – Automate Headless VirtualBox VM Creation
 
@@ -204,6 +195,5 @@ You are managing a local lab using VirtualBox. Your task is to automate the setu
 - Script file
 - Sample usage
 - VM settings summary
-
 ```
 

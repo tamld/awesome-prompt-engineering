@@ -1,9 +1,6 @@
-[🏠 Home](index.md)
-
-# Infrastructure as Code
+# Iac
 
 ## Overview
-
 # 🔥 Infrastructure as Code (IaC) Prompts
 
 This section contains practical prompt templates designed for DevOps engineers and infrastructure professionals working with Infrastructure as Code tools. These prompts have been crafted to solve real-world challenges in infrastructure automation, deployment, and management.
@@ -132,18 +129,15 @@ I need a Vagrant configuration for a lab environment with:
 - Proper networking between components
 ```
 
-## Contributing
+## 👥 Contributing
 
 We welcome contributions to improve these prompts or add new ones related to Infrastructure as Code. Please consider adding:
 
 - Additional prompt templates for other IaC tools like CloudFormation, Pulumi, etc.
 - Example responses that showcase effective AI-assisted infrastructure transformations
 - Diagrams illustrating complex workflows that can benefit from these prompts
-
 ---
-
 ## `idempotent-playbook.prompt`
-
 ```text
 # 🧠 Prompt – Write an Idempotent Ansible Playbook
 
@@ -182,13 +176,10 @@ You are an automation engineer. Your task is to create or refactor an Ansible pl
 
 - Full Ansible playbook
 - Idempotency test run output
-
 ```
 
 ---
-
 ## `create-module.prompt`
-
 ```text
 # 🧠 Prompt – Create a Reusable Terraform Module
 
@@ -229,13 +220,10 @@ You are an infrastructure-as-code engineer. Your task is to create a reusable Te
 
 - `main.tf`, `variables.tf`, `outputs.tf` files
 - Sample `terraform.tfvars` and usage example
-
 ```
 
 ---
-
 ## `security-baseline-check.prompt`
-
 ```text
 # 🧠 Prompt – Verify Terraform Configurations Against Security Baselines
 
@@ -275,13 +263,10 @@ You are a cloud security engineer. Your task is to inspect Terraform configurati
 
 - Security findings summary
 - Remediation actions with Terraform syntax
-
 ```
 
 ---
-
 ## `init-vagrant-lab.prompt`
-
 ```text
 # 🧠 Prompt – Initialize a Vagrant Lab Environment
 
@@ -318,13 +303,10 @@ You are an infrastructure-as-code engineer. Your task is to generate a Vagrantfi
 - Full `Vagrantfile`
 - Summary of services exposed and ports used
 - Tips for next steps: provisioning, SSH, destroy
-
 ```
 
 ---
-
 ## `multi-vm-topology.prompt`
-
 ```text
 # 🧠 Prompt – Build a Multi-VM Topology with Vagrant
 
@@ -365,13 +347,10 @@ You are designing a development lab with multiple VMs using Vagrant. Your task i
 - Full Vagrantfile with N VM definitions
 - Sample provisioning script if included
 - Diagram or table of IP/hostnames
-
 ```
 
 ---
-
 ## `vagrant-packer-builder.prompt`
-
 ```text
 # 🧠 Prompt – Create a Vagrant Box Using Packer
 
@@ -410,6 +389,5 @@ You are a DevOps engineer. Your task is to create a Vagrant-compatible base box 
 - `packer.json` or HCL config
 - `Vagrantfile` using built box
 - Summary of installed tools and usage steps
-
 ```
 

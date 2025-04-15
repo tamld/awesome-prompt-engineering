@@ -1,9 +1,6 @@
-[🏠 Home](index.md)
-
 # Infrastructure
 
 ## Overview
-
 # 🔥 Infrastructure Design Prompts
 
 This section contains practical prompt templates designed for network engineers and infrastructure architects. These prompts have been crafted to solve real-world challenges in designing, implementing, and maintaining robust IT infrastructure.
@@ -101,18 +98,15 @@ Current environment:
 Goal: Transform into a highly available, modern infrastructure
 ```
 
-## Contributing
+## 👥 Contributing
 
 We welcome contributions to improve these prompts or add new ones related to infrastructure design. Please consider adding:
 
 - Additional prompt templates for network design, data center architecture, etc.
 - Example responses that showcase effective AI-assisted infrastructure planning
 - Diagrams illustrating complex infrastructure patterns that can benefit from these prompts
-
 ---
-
 ## `design-ha-network.prompt`
-
 ```text
 🧠 Prompt – Design High Availability (HA) Network Architecture
 
@@ -171,7 +165,6 @@ Architecture summary (text-based diagram)
 IP/VLAN plan (optional table)
 
 Risks or blind spots
-
 
 ```
 

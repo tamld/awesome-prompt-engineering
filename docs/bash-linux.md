@@ -1,9 +1,6 @@
-[🏠 Home](index.md)
-
-# Bash & Linux
+# Bash Linux
 
 ## Overview
-
 # 🔥 Bash & Linux Prompts
 
 This section contains practical prompt templates designed for system administrators and DevOps professionals working with Linux environments. These prompts have been crafted to solve real-world challenges in Linux shell scripting, system hardening, and administration.
@@ -98,11 +95,14 @@ I need a secure monitoring script that:
 - Runs securely as a non-privileged user
 ```
 
-## Contributing
+## 👥 Contributing
 
 We welcome contributions to improve these prompts or add new ones related to Linux and Bash. Please consider adding:
 
 - Additional prompt templates for specific Linux administration tasks
 - Example responses that showcase effective AI-assisted script transformations
 - Diagrams illustrating complex workflows that can benefit from these prompts
+---
+## No prompts yet
+This category doesn't have any prompt files yet. Feel free to contribute!
 
