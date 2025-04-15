@@ -1,0 +1,37 @@
+# 🧠 Prompt – Write an Idempotent Ansible Playbook
+
+You are an automation engineer. Your task is to create or refactor an Ansible playbook to ensure it is fully idempotent.
+
+---
+
+## ✅ Technical Requirements
+
+1. Ensure each task:
+   - Uses `state:` (e.g., present, latest, started)
+   - Checks conditions with `when:`, `creates:`, or `stat`
+   - Avoids shell unless strictly necessary
+
+2. Follow Ansible best practices:
+   - Use roles, handlers, and variables
+   - Keep output clean and meaningful
+
+---
+
+## 📜 Workflow Expectations
+
+- Include test strategy for idempotency
+- Explain how each task avoids unnecessary change
+
+---
+
+## 🧑‍💻 Presentation Style
+
+- Use YAML with clear spacing
+- Comment key logic areas
+
+---
+
+## 🧾 Output Specification
+
+- Full Ansible playbook
+- Idempotency test run output
