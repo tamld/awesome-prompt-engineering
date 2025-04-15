@@ -1,16 +1,18 @@
-# 🔥 Programming Prompts
+# Programming Prompts
+
+[![Return to Homepage](https://img.shields.io/badge/Return%20to%20Homepage-blue?style=for-the-badge)](../../README.md)
 
 This section contains practical prompt templates designed for software developers and programmers. These prompts have been crafted to solve real-world challenges in code review, refactoring, optimization, and best practices implementation.
 
-## 📑 Table of Contents
+## Table of Contents
 
-- [🛠️ Available Prompt Templates](#available-prompt-templates)
-- [📊 Understanding Prompt Impact](#understanding-prompt-impact)
-- [🌟 Real-World Use Cases](#real-world-use-cases)
-- [📝 Usage Examples](#usage-examples)
-- [👥 Contributing](#contributing)
+- [Available Prompt Templates](#available-prompt-templates)
+- [Understanding Prompt Impact](#understanding-prompt-impact)
+- [Real-World Use Cases](#real-world-use-cases)
+- [Usage Examples](#usage-examples)
+- [Contributing](#contributing)
 
-## 🛠️ Available Prompt Templates
+## Available Prompt Templates
 
 The following prompt templates are available for programming tasks:
 
@@ -18,7 +20,7 @@ The following prompt templates are available for programming tasks:
 |-------------|-------------|----------|
 | [code-review-refactor.prompt](./code-review-refactor.prompt) | Code review and refactoring assistance | Improve code quality and maintainability |
 
-## 📊 Understanding Prompt Impact
+## Understanding Prompt Impact
 
 The following diagram illustrates how these programming prompts can transform legacy code into high-quality, maintainable software:
 
@@ -49,7 +51,7 @@ flowchart TD
     style K fill:#e6ffcc
 ```
 
-## 🌟 Real-World Use Cases
+## Real-World Use Cases
 
 These programming prompts are particularly valuable for:
 
@@ -63,7 +65,7 @@ These programming prompts are particularly valuable for:
 
 5. **📚 Knowledge Transfer**: Helping junior developers understand code patterns
 
-## 📝 Usage Examples
+## Usage Examples
 
 ### Example 1: Refactoring Legacy Code
 
@@ -112,7 +114,7 @@ class UserService {
 }
 ```
 
-## 👥 Contributing
+## Contributing
 
 We welcome contributions to improve these prompts or add new ones related to programming tasks. Please consider adding:
 

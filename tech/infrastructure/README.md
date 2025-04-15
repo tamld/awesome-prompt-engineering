@@ -1,16 +1,18 @@
-# 🔥 Infrastructure Design Prompts
+# Infrastructure Design Prompts
+
+[![Return to Homepage](https://img.shields.io/badge/Return%20to%20Homepage-blue?style=for-the-badge)](../../README.md)
 
 This section contains practical prompt templates designed for network engineers and infrastructure architects. These prompts have been crafted to solve real-world challenges in designing, implementing, and maintaining robust IT infrastructure.
 
-## 📑 Table of Contents
+## Table of Contents
 
-- [🛠️ Available Prompt Templates](#available-prompt-templates)
-- [📊 Understanding Prompt Impact](#understanding-prompt-impact)
-- [🌟 Real-World Use Cases](#real-world-use-cases)
-- [📝 Usage Examples](#usage-examples)
-- [👥 Contributing](#contributing)
+- [Available Prompt Templates](#available-prompt-templates)
+- [Understanding Prompt Impact](#understanding-prompt-impact)
+- [Real-World Use Cases](#real-world-use-cases)
+- [Usage Examples](#usage-examples)
+- [Contributing](#contributing)
 
-## 🛠️ Available Prompt Templates
+## Available Prompt Templates
 
 The following prompt templates are available for infrastructure design tasks:
 
@@ -18,7 +20,7 @@ The following prompt templates are available for infrastructure design tasks:
 |-------------|-------------|----------|
 | [design-ha-network.prompt](./design-ha-network.prompt) | High-availability network architecture | Design resilient network infrastructures |
 
-## 📊 Understanding Prompt Impact
+## Understanding Prompt Impact
 
 The following diagram illustrates how these infrastructure prompts can transform basic designs into robust, resilient architectures:
 
@@ -49,7 +51,7 @@ flowchart TD
     style K fill:#e6ffcc
 ```
 
-## 🌟 Real-World Use Cases
+## Real-World Use Cases
 
 These infrastructure design prompts are particularly valuable for:
 
@@ -63,7 +65,7 @@ These infrastructure design prompts are particularly valuable for:
 
 5. **📊 Capacity Planning**: Forecasting growth and resource requirements
 
-## 📝 Usage Examples
+## Usage Examples
 
 ### Example 1: Designing a Highly Available Network
 
@@ -95,7 +97,7 @@ Current environment:
 Goal: Transform into a highly available, modern infrastructure
 ```
 
-## 👥 Contributing
+## Contributing
 
 We welcome contributions to improve these prompts or add new ones related to infrastructure design. Please consider adding:
 

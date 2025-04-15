@@ -1,16 +1,18 @@
-# 🔥 Windows Administration Prompts
+# Windows Administration Prompts
+
+[![Return to Homepage](https://img.shields.io/badge/Return%20to%20Homepage-blue?style=for-the-badge)](../../README.md)
 
 This section contains practical prompt templates designed for IT professionals working with Windows environments. These prompts have been crafted to solve real-world challenges in Windows system administration, PowerShell scripting, batch files, and Windows management.
 
-## 📑 Table of Contents
+## Table of Contents
 
-- [🛠️ Available Prompt Templates](#available-prompt-templates)
-- [📊 Understanding Prompt Impact](#understanding-prompt-impact)
-- [🌟 Real-World Use Cases](#real-world-use-cases)
-- [📝 Usage Examples](#usage-examples)
-- [👥 Contributing](#contributing)
+- [Available Prompt Templates](#available-prompt-templates)
+- [Understanding Prompt Impact](#understanding-prompt-impact)
+- [Real-World Use Cases](#real-world-use-cases)
+- [Usage Examples](#usage-examples)
+- [Contributing](#contributing)
 
-## 🛠️ Available Prompt Templates
+## Available Prompt Templates
 
 The following prompt templates are available for Windows administration tasks:
 
@@ -23,7 +25,7 @@ The following prompt templates are available for Windows administration tasks:
 | [windows-service-wrapper.prompt](./windows-service-wrapper.prompt) | Windows service management | Create and manage Windows services efficiently |
 | [windows-troubleshooting-diagnostic.prompt](./windows-troubleshooting-diagnostic.prompt) | Windows diagnostic procedures | Systematically troubleshoot Windows issues |
 
-## 📊 Understanding Prompt Impact
+## Understanding Prompt Impact
 
 The following diagram illustrates how these Windows administration prompts can transform basic administration tasks into structured, repeatable processes:
 
@@ -54,21 +56,21 @@ flowchart TD
     style K fill:#e6ffcc
 ```
 
-## 🌟 Real-World Use Cases
+## Real-World Use Cases
 
 These Windows administration prompts are particularly valuable for:
 
-1. **💼 Enterprise Administration**: Streamlining management of large Windows environments with consistent approaches
+1. **Enterprise Administration**: Streamlining management of large Windows environments with consistent approaches
 
-2. **🔒 Security Operations**: Implementing hardening measures across Active Directory and Windows systems
+2. **Security Operations**: Implementing hardening measures across Active Directory and Windows systems
 
-3. **🔄 IT Automation**: Converting manual Windows tasks into repeatable, error-free processes
+3. **IT Automation**: Converting manual Windows tasks into repeatable, error-free processes
 
-4. **🛠️ Troubleshooting**: Systematically diagnosing and resolving Windows issues with structured methodology
+4. **Troubleshooting**: Systematically diagnosing and resolving Windows issues with structured methodology
 
-5. **📊 Compliance**: Creating documented, auditable procedures that align with organizational policies
+5. **Compliance**: Creating documented, auditable procedures that align with organizational policies
 
-## 📝 Usage Examples
+## Usage Examples
 
 ### Example 1: Running an Active Directory Health Check
 
@@ -100,7 +102,7 @@ foreach ($user in $users) {
 }
 ```
 
-## 👥 Contributing
+## Contributing
 
 We welcome contributions to improve these prompts or add new ones related to Windows administration. Please consider adding:
 

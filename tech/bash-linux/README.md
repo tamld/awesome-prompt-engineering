@@ -1,16 +1,18 @@
-# 🔥 Bash & Linux Prompts
+# Bash & Linux Prompts
+
+[![Return to Homepage](https://img.shields.io/badge/Return%20to%20Homepage-blue?style=for-the-badge)](../../README.md)
 
 This section contains practical prompt templates designed for system administrators and DevOps professionals working with Linux environments. These prompts have been crafted to solve real-world challenges in Linux shell scripting, system hardening, and administration.
 
-## 📑 Table of Contents
+## Table of Contents
 
-- [🛠️ Available Prompt Templates](#available-prompt-templates)
-- [📊 Understanding Prompt Impact](#understanding-prompt-impact)
-- [🌟 Real-World Use Cases](#real-world-use-cases)
-- [📝 Usage Examples](#usage-examples)
-- [👥 Contributing](#contributing)
+- [Available Prompt Templates](#available-prompt-templates)
+- [Understanding Prompt Impact](#understanding-prompt-impact)
+- [Real-World Use Cases](#real-world-use-cases)
+- [Usage Examples](#usage-examples)
+- [Contributing](#contributing)
 
-## 🛠️ Available Prompt Templates
+## Available Prompt Templates
 
 The following prompt templates are available for Linux and Bash scripting tasks:
 
@@ -18,7 +20,7 @@ The following prompt templates are available for Linux and Bash scripting tasks:
 |-------------|-------------|----------|
 | [harden-linux-shell.promt](./harden-linux-shell.promt) | Linux shell security hardening | Enhance security of shell scripts and Linux environments |
 
-## 📊 Understanding Prompt Impact
+## Understanding Prompt Impact
 
 The following diagram illustrates how these Bash and Linux prompts can transform basic administration tasks into secure, automated processes:
 
@@ -49,7 +51,7 @@ flowchart TD
     style K fill:#e6ffcc
 ```
 
-## 🌟 Real-World Use Cases
+## Real-World Use Cases
 
 These Bash and Linux prompts are particularly valuable for:
 
@@ -63,7 +65,7 @@ These Bash and Linux prompts are particularly valuable for:
 
 5. **🚨 Incident Response**: Building tools for quick response to security incidents
 
-## 📝 Usage Examples
+## Usage Examples
 
 ### Example 1: Hardening a Linux Shell Script
 
@@ -92,7 +94,7 @@ I need a secure monitoring script that:
 - Runs securely as a non-privileged user
 ```
 
-## 👥 Contributing
+## Contributing
 
 We welcome contributions to improve these prompts or add new ones related to Linux and Bash. Please consider adding:
 
