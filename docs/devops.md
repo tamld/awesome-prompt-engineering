@@ -1,3 +1,5 @@
+[🏠 Home](index.md)
+
 # DevOps
 
 ## Overview
@@ -105,7 +107,7 @@ Date: Fri Apr 7 15:22:33 2023
 commit ...
 ```
 
-## 👥 Contributing
+## Contributing
 
 We welcome contributions to improve these prompts or add new ones related to DevOps practices. Please consider adding:
 

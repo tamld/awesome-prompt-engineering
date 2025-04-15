@@ -5,7 +5,8 @@ site_url: https://tamld.github.io/awesome-prompt-engineering/
 theme:
   name: material
   features:
-  - navigation.instant
+  - content.code.copy
+  #- navigation.instant
   - navigation.tracking
   - toc.integrate
   - search.suggest

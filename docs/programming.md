@@ -1,3 +1,5 @@
+[🏠 Home](index.md)
+
 # Programming
 
 ## Overview
@@ -116,7 +118,7 @@ class UserService {
 }
 ```
 
-## 👥 Contributing
+## Contributing
 
 We welcome contributions to improve these prompts or add new ones related to programming tasks. Please consider adding:
 

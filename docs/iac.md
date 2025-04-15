@@ -1,3 +1,5 @@
+[🏠 Home](index.md)
+
 # Infrastructure as Code
 
 ## Overview
@@ -130,7 +132,7 @@ I need a Vagrant configuration for a lab environment with:
 - Proper networking between components
 ```
 
-## 👥 Contributing
+## Contributing
 
 We welcome contributions to improve these prompts or add new ones related to Infrastructure as Code. Please consider adding:
 

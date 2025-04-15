@@ -1,3 +1,5 @@
+[🏠 Home](index.md)
+
 # Windows
 
 ## Overview
@@ -104,7 +106,7 @@ foreach ($user in $users) {
 }
 ```
 
-## 👥 Contributing
+## Contributing
 
 We welcome contributions to improve these prompts or add new ones related to Windows administration. Please consider adding:
 

@@ -1,3 +1,5 @@
+[🏠 Home](index.md)
+
 # Infrastructure
 
 ## Overview
@@ -99,7 +101,7 @@ Current environment:
 Goal: Transform into a highly available, modern infrastructure
 ```
 
-## 👥 Contributing
+## Contributing
 
 We welcome contributions to improve these prompts or add new ones related to infrastructure design. Please consider adding:
 

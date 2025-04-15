@@ -1,3 +1,5 @@
+[🏠 Home](index.md)
+
 # Bash & Linux
 
 ## Overview
@@ -96,7 +98,7 @@ I need a secure monitoring script that:
 - Runs securely as a non-privileged user
 ```
 
-## 👥 Contributing
+## Contributing
 
 We welcome contributions to improve these prompts or add new ones related to Linux and Bash. Please consider adding:
 

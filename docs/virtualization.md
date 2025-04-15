@@ -1,3 +1,5 @@
+[🏠 Home](index.md)
+
 # Virtualization
 
 ## Overview
@@ -77,7 +79,7 @@ These prompts are designed to work with various virtualization technologies. To 
 3. **Include Examples**: Where possible, include examples of existing configurations
 4. **Clarify Goals**: Specify whether you're optimizing for performance, density, security, etc.
 
-## 👥 Contributing
+## Contributing
 
 We welcome contributions to improve these prompts or add new ones related to virtualization technologies. Please consider adding:
 
