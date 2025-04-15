@@ -27,6 +27,7 @@ jobs:
         run: |
           chmod +x build-docs.sh
           ./build-docs.sh
+          mkdocs build  # Thêm lệnh này để đảm bảo thư mục 'site/' được tạo ra
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force

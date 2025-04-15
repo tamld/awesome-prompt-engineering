@@ -86,7 +86,9 @@ for CATEGORY in "$SOURCE_DIR"/*/; do
   PROMPT_COUNT=0
   while IFS= read -r -d '' prompt; do
     fname=$(basename "$prompt")
+    # Chỉnh sửa đường dẫn để trỏ tới thư mục 'prompts/'
     cp "$prompt" "$PROMPTS_DIR/$fname"
+    # Sửa đường dẫn trong liên kết đến các tệp .prompt
     echo "- [$fname](../prompts/$fname)" >> "$CATEGORY_FILE"
     PROMPT_COUNT=$((PROMPT_COUNT + 1))
   done < <(find "$CATEGORY" -type f -name "*.prompt" -print0 | sort -z)
