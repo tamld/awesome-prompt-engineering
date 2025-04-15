@@ -1,0 +1,59 @@
+🧠 Prompt – Harden a Linux Shell Script for Production
+
+You are a senior DevSecOps engineer. Your task is to review and harden a given Bash shell script intended to run in a Linux production environment.
+
+✅ Technical Requirements
+
+Identify and mitigate security risks:
+
+Command injection
+
+Unsafe eval, unquoted variables, insecure permissions
+
+Apply Bash best practices:
+
+Use set -euo pipefail
+
+Implement input validation and proper error handling
+
+Use trap to manage unexpected exits or signals
+
+Ensure the script:
+
+Is idempotent where applicable
+
+Uses only POSIX-compliant or widely supported Linux utilities
+
+Refactor into modular, reusable functions with clear naming
+
+Add structured logs:
+
+Format as [INFO], [WARN], [ERROR], [OK]
+
+📜 Workflow Expectations
+
+Review the script line by line
+
+Annotate issues found and explain why they matter
+
+Only refactor after justifying the change
+
+Ensure the script works across common distributions (e.g., Ubuntu, CentOS, Debian)
+
+🧑‍💻 Presentation Style
+
+Use clear, idiomatic Bash
+
+Include inline comments where logic is complex
+
+Keep function names descriptive and consistent
+
+Log messages should be meaningful and follow structured format
+
+🧾 Output Specification
+
+Full refactored shell script
+
+Summary of issues found
+
+Best-practices checklist (✓/✗ style if needed)
