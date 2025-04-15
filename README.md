@@ -27,7 +27,7 @@ The focus is on practical, task-oriented prompts that help solve real-world prob
 
 ---
 
-## 🎯 Purpose and Benefits
+## Purpose and Benefits
 
 This collection aims to:
 
@@ -42,7 +42,7 @@ Whether you're a developer, sysadmin, DevOps engineer, or technical professional
 
 ---
 
-## 📚 Categories
+## Categories
 
 ### Technical Prompts
 
@@ -60,7 +60,7 @@ Whether you're a developer, sysadmin, DevOps engineer, or technical professional
 
 ---
 
-## 🚀 Get Started
+## Get Started
 
 If you're new to this repository, follow these steps:
 
@@ -76,7 +76,7 @@ If you're new to this repository, follow these steps:
 
 ---
 
-## 💡 Contributing
+## Contributing
 
 Contributions are welcome! If you have a prompt that has consistently worked well for you:
 
@@ -89,7 +89,7 @@ Please ensure your prompts include thorough documentation on their usage and exp
 
 ---
 
-## 📃 License
+## License
 
 This repository is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
 
