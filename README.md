@@ -1,5 +1,11 @@
 # 🎯 Awesome Prompt Engineering
 
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![AI](https://img.shields.io/badge/AI-Prompt%20Engineering-9333EA)
+![DevOps](https://img.shields.io/badge/DevOps-Automation-0078D6?logo=devops&logoColor=white)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+
 Curated, reusable prompts for AI assistants in DevOps, SysAdmin, Infrastructure, and more.
 
 ---
