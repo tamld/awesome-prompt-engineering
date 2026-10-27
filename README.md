@@ -60,9 +60,12 @@ Whether you're a developer, sysadmin, DevOps engineer, or technical professional
 - [Infrastructure as Code](./tech/iac/README.md) – Terraform, Ansible, CloudFormation
 - [Programming](./tech/programming/README.md) – Language-specific prompts and coding assistance
 
-### Other Categories
+### Agentic & Context Engineering (2026)
 
-- Coming soon...
+- **Spec-Driven Development (SDD)** – Anchoring AI coding agents with executable Markdown contracts (`AGENTS.md`, `constitution.md`, OpenSpec deltas) and deterministic pre-push gates instead of free-form prompting.
+- **Model Context Protocol (MCP) Tool Design** – Designing narrow, schema-validated MCP tool definitions (`search`, `read`, `edit`) with explicit side-effect boundaries and least-privilege scope.
+- **Zero-Trust Subagent Delegation** – Splitting frontier reasoning (`F0 Brain`) from bounded execution (`F1 Worker`) with path-scoped write receipts and double-blind verification (`S3-A BlindAdjudicator`).
+- **Epistemic Verification Prompts** – Forcing explicit evidence tagging (`MECHANICAL_VERIFIED`, `OBSERVATIONAL_TELEMETRY`, `UNVERIFIED_PROSE`) and Red-Test reproduction before accepting bug fixes.
 
 ---
 
